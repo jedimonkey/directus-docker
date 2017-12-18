@@ -1,4 +1,5 @@
-FROM getdirectus/directus-base-layer:0.0.11
+# Base images after 0.0.10 DON'T have mcrypt
+FROM getdirectus/directus-base-layer:0.0.10
 MAINTAINER Luis Santos "luis@luissantos.pt"
 
 RUN get-directus 6.3.9
