@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM php:7.1-apache
 MAINTAINER Kristian Frolund "https://github.com/Froelund"
 
 RUN apt-get update && apt-get install -y \
